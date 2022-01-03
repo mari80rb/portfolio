@@ -8,3 +8,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }*/
+
+#section_1 img {
+  margin: 0%;
+}

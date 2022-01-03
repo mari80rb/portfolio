@@ -1,0 +1,43 @@
+body {
+  background-color: #cab8b7;
+}
+
+#section_1 h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.wrapper {
+  padding: 5%;
+}
+.wrapper .billede {
+  justify-content: center;
+}
+
+#section_1 .tekst {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 0%;
+  padding: 8%;
+}
+
+.knap a {
+  border: solid white 2px;
+  padding-block: 2%;
+  padding-inline: 10%;
+  background-color: #cfbebe;
+  /*background-color: #fabb9c;*/
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.knap {
+  margin-top: 10%;
+  text-align: center;
+}
+
+@media (min-width: 860px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+  }
+}

@@ -1,17 +1,21 @@
+img {
+  max-width: 100%;
+}
+
 /* ------------------------------------------------ header -------------------------------------------- */
 /* burgermenu */
 .toggle-btn {
   display: none;
 }
 .toggle-btn {
-  padding-inline: 5%;
+  /*padding-inline: 5%;*/
 }
 header {
   background-color: #e0e0e2;
-  padding-top: 2%;
 }
 header .hjem {
   text-align: center;
+  padding-top: 2%;
 }
 .hjem a {
   font-size: 2rem;
@@ -30,9 +34,13 @@ ul {
 }
 
 a {
-  font-family: "Oranienbaum", serif;
   text-decoration: none;
-  /*font-weight: bold;*/
+  /*font-weight: bold;
+  font-family: "Oranienbaum", serif;*/
   font-size: 1.5rem;
   color: black;
+}
+
+body {
+  margin: 0%;
 }
