@@ -1,0 +1,40 @@
+body {
+  background-color: #cab8b7;
+}
+
+#section_1 .tekst {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 0%;
+  padding: 8%;
+}
+
+@media (min-width: 860px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5%;
+  }
+
+  .tekst {
+    grid-column: 1/4;
+  }
+
+  .billede1 {
+    grid-column: 1/2;
+    padding: 5%;
+  }
+
+  .billede2 {
+    padding: 5%;
+  }
+
+  .billede3 {
+    padding: 5%;
+  }
+
+  .knap {
+    grid-column: 2/3;
+    grid-template: 3/4;
+  }
+}

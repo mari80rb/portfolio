@@ -2,11 +2,32 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.knap a {
+  border: solid white 2px;
+  padding-block: 2%;
+  padding-inline: 10%;
+  background-color: #dacfcf;
+  /*background-color: #fabb9c;*/
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.knap {
+  margin-top: 10%;
+  text-align: center;
+}
+
 /* ------------------------------------------------ header -------------------------------------------- */
 /* burgermenu */
 .toggle-btn {
   display: none;
 }
+
 .toggle-btn {
   /*padding-inline: 5%;*/
 }

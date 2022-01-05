@@ -1,0 +1,25 @@
+body {
+  background-color: #cab8b7;
+}
+
+#section_1 .tekst {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 0%;
+  padding: 8%;
+}
+
+.wrapper {
+  padding: 5%;
+}
+
+.wrapper .billede {
+  place-content: left;
+}
+
+@media (min-width: 860px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+  }
+}
