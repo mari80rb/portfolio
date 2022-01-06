@@ -1,0 +1,28 @@
+#section_1 {
+  background-color: #cab8b7;
+  margin: 0%;
+}
+
+#section_2 {
+  background-color: #998b8a;
+}
+
+.tekst {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 2%;
+  padding: 5%;
+}
+
+@media (min-width: 860px) {
+  .wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+  }
+
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+  }
+}
