@@ -40,6 +40,7 @@ h1 {
 }
 header {
   background-color: #e0e0e2;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
 }
 header .hjem {
   text-align: center;
