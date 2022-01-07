@@ -7,3 +7,117 @@ body {
     #b5a5a4 100%
   );
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#section_2,
+#section_3,
+#section_4,
+#section_5,
+#section_6,
+#section_7,
+#section_8,
+#section_9,
+#section_10,
+#section_11 {
+  padding-left: 1%;
+}
+
+.venstre {
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 3%;
+}
+
+.right {
+  position: fixed;
+  right: 0%;
+  width: 50%;
+  padding: 10%;
+  padding-bottom: 15%;
+}
+
+/*.billede {
+  position: fixed;
+}*/
+
+/************************ SECTION 2 ****************/
+
+#section_2 .navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 55%;
+}
+#section_2 a {
+  font-size: 1rem;
+}
+
+/************************ SECTION 3 ****************/
+
+#section_3 h2 {
+  font-size: 2rem;
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
+
+#section_3 p {
+  font-size: 1.3rem;
+  margin-top: 0%;
+}
+
+/************************ SECTION 4 ****************/
+
+#section_4 {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+#section_4 a {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+/************************ SECTION 6 ****************/
+
+#section_6 h2 {
+  margin-top: 30%;
+}
+
+/************************ SECTION 7 ****************/
+
+#section_7 h2 {
+  margin-top: 20%;
+}
+
+/************************ SECTION 8 ****************/
+
+#section_8 h2 {
+  margin-top: 20%;
+}
+
+/************************ SECTION 9 ****************/
+
+#section_9 h2 {
+  margin-top: 20%;
+}
+
+/************************ SECTION 10 ****************/
+
+#section_10 h2 {
+  margin-top: 20%;
+}
+
+/************************ SECTION 11 ****************/
+
+#section_11 h2 {
+  margin-top: 20%;
+}
+
+#section_11 a {
+  font-size: 1rem;
+  text-decoration: underline;
+}

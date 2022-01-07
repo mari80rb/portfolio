@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 img {
   max-width: 100%;
 }
@@ -46,7 +51,7 @@ header .hjem {
   /*font-family: "Bodino moda", serif;*/
 }
 
-ul {
+header ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
