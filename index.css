@@ -58,3 +58,7 @@ p {
   margin: 2%;
   padding: 8%;
 }
+
+#section_1 {
+  background-image: url("/");
+}
