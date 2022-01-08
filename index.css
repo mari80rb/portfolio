@@ -12,3 +12,49 @@ img {
 #section_1 img {
   margin: 0%;
 }
+
+.tekst {
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255, 0.6);
+  margin: 3%;
+  padding: 3%;
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+body {
+  background-color: #cab8b7;
+}
+
+@media (min-width: 600px) {
+  .tekst {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    margin: 3%;
+    padding: 3%;
+    font-size: 3rem;
+    font-family: "Libre Baskerville", serif;
+  }
+}
+
+.mobil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 1%;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 2%;
+  padding: 8%;
+}
