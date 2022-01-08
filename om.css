@@ -12,10 +12,6 @@ body {
   box-sizing: border-box;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
-}
-
 #section_2,
 #section_3,
 #section_4,
@@ -124,4 +120,8 @@ p {
 #section_11 a {
   font-size: 1rem;
   text-decoration: underline;
+}
+
+.punkter {
+  font-family: "Montserrat", sans-serif;
 }
