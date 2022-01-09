@@ -26,3 +26,8 @@
     padding: 5%;
   }
 }
+
+.PP {
+  font-size: 1rem;
+  text-decoration: underline;
+}
