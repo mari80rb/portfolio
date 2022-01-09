@@ -41,7 +41,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .toggle-btn {
     background: transparent;
     border: none;
@@ -88,7 +88,9 @@ a:hover {
 
 header {
   background-color: #e0e0e2;
-  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1000;
 }
 header .hjem {
   text-align: center;

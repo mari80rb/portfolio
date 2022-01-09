@@ -3,14 +3,8 @@ img {
   height: auto;
 }
 
-/*body {
-  background-image: url("unsplash_computer.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
-
-#section_1 img {
-  margin: 0%;
+#section_1 {
+  position: relative;
 }
 
 .tekst {
@@ -33,7 +27,7 @@ body {
 @media (min-width: 750px) {
   .tekst {
     position: absolute;
-    top: 70%;
+    top: 30%;
     left: 48%;
     margin: 3%;
     padding: 3%;
