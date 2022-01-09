@@ -53,16 +53,13 @@ body {
   }
 }
 
-/*.billede {
-  position: fixed;
-}*/
-
 /************************ SECTION 2 ****************/
 
 #section_2 .navigation {
   display: flex;
   justify-content: space-between;
   margin-right: 55%;
+  font-family: "PT Sans", sans-serif;
 }
 #section_2 a {
   font-size: 1rem;
