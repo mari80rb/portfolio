@@ -9,32 +9,10 @@ body {
 }
 
 @media (min-width: 860px) {
-  .wrapper {
+  .billede {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+
     padding: 5%;
-  }
-
-  .tekst {
-    grid-column: 1/4;
-  }
-
-  .billede1 {
-    grid-column: 1/2;
-    padding: 5%;
-  }
-
-  .billede2 {
-    padding: 5%;
-  }
-
-  .billede3 {
-    padding: 5%;
-  }
-
-  .knap {
-    grid-column: 2/3;
-    grid-template: 3/4;
   }
 }

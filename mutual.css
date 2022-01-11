@@ -164,13 +164,11 @@ h1 {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 2%;
 
   padding-inline: 10%;
   background-color: #a59190;
   box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.5);
-
-  bottom: 0;
 }
 
 .footer_tekst {

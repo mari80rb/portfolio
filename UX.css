@@ -12,10 +12,6 @@ body {
   padding: 5%;
 }
 
-.wrapper .billede {
-  place-content: left;
-}
-
 @media (min-width: 860px) {
   .wrapper {
     display: grid;

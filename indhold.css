@@ -31,3 +31,11 @@
   font-size: 1rem;
   text-decoration: underline;
 }
+
+.footer {
+  margin: -15px;
+
+  padding-inline: 10%;
+  background-color: #a59190;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.5);
+}
